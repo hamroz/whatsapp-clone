@@ -1,0 +1,21 @@
+.app{
+  display: grid;
+  place-items: center;
+  
+  /*Background color*/
+  background-color: #dadbd3;
+  
+  /*Background height from top*/
+  height: 100vh;
+
+}
+
+
+.app__body { /*Creating the sqare box*/
+  display: flex;
+  background-color: #ededed;
+  margin-top: -50px;
+  height: 90vh;
+  width: 90vh;
+  box-shadow: -1px 4px 20px -6px rgba(0,0,0,0.7);
+}
